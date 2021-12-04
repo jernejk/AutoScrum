@@ -11,4 +11,8 @@ public class User
 
     public string DisplayName { get; set; }
     public string Email { get; set; }
+
+    public bool Included { get; set; } = true;
+
+    public string Blocking { get; set; }
 }
